@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="pratik">js can hide html element</p>
+    <button id="rohan" onclick="hide()">hit me</button>
+    <p id="showme" style="display: none;">show element</p>
+    <button onclick="showtext()">click me</button>
+
+    <script>
+        function hide(){
+            document.getElementById("pratik").style.display = "none";
+        }
+        function showtext(){
+            document.getElementById("showme").style.display = "block";
+        }
+    </script>
+</body>
+</html>

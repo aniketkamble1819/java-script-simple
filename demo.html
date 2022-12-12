@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="mydiv">this is div</div><br>
+    <span id="myspan">this is span</span><br>
+    <input type="text"  id="mytext"><br><br>
+    <button id="btn" onclick="clickedme()">click me</button>
+    <script>
+      function clickedme(){
+        let div = document.getElementById("mydiv").innerHTML = "<i>hello javascript</i>";
+        console.log(div);
+        let span = document.getElementById("myspan").innerHTML = "rohan malavi";
+        console.log(span);
+        let text = document.getElementById("mytext").value = "pratik mali";
+
+      }
+
+    </script>
+</body>
+</html>

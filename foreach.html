@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       let name = ["anjali","rahul","suny","divya","rakesh"];
+       console.log(name); 
+       console.log(name[0]);
+
+       for(i=0;i<name.length;i++)
+       {
+        console.log("position of array is:" + i + " " + name[i]);                 
+       }
+
+       name.forEach(function(value,index){
+        console.log(index,value);
+       })
+       let no = [10,45,85,69,32,45];
+       console.log(no);
+       no.forEach(function(value,index){
+        console.log(index,value);
+       })
+
+       no.forEach((value,index)=>{
+              console.log(index,value);
+       })
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       let jsonobj =  {"name":"avinash",
+                        "age":25,
+                        "married":"true",
+                        "shop":["fireworks","akash kandil","panati"],
+                        "college":{student:"viki",id:25,address:"kolhapur"},
+                        "city":" ",
+                        "palce":null
+
+                       
+                      }
+                      console.log(jsonobj);
+
+                      let str = JSON.stringify(jsonobj);
+                      console.log(str);
+
+                      let change = str.replace("avinash","vishal");
+                      console.log(change);
+
+                      let obj = JSON.parse(str);
+                      console.log(obj);
+    </script>
+</body>
+</html>

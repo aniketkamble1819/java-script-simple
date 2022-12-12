@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let age = [12,45,85,69,25,73,91,58,64];
+        console.log(age);
+        let ageover25 = age.filter(function(value,index){
+            return value<=45;
+        })
+        console.log(ageover25);
+
+        let over85 = age.filter((value,index)=>{
+            return value>85;
+
+        })
+        console.log(over85);
+    </script>
+</body>
+</html>
